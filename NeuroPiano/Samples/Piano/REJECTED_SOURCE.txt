@@ -1,0 +1,6 @@
+Rejected.wav
+Source: Wrong Error.wav from UI Sounds by HaelDB
+https://opengameart.org/content/ui-sounds-0
+License: CC0 (public domain dedication)
+Converted from stereo 48 kHz float WAV to stereo 44.1 kHz PCM16 WAV.
+Original level retained; 10 ms fade-in and 25 ms fade-out added.

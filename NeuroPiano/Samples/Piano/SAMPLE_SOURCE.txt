@@ -1,0 +1,21 @@
+NeuroPiano piano sample set
+=====================================
+
+Range: C2..C6 (MIDI 36..84), four complete octaves plus the top C.
+Each note is a separate 7-second stereo WAV at 44.1 kHz / 16 bit.
+
+The samples are rendered from the TimGM6mb General MIDI SoundFont,
+preset 0 (Acoustic Grand Piano), velocity 100, and normalized to the same
+peak level used by the original approved C4..C5 NeuroPiano sample set.
+
+The original C4..C5 WAV files from NeuroPiano v1.4 are preserved byte-for-byte.
+The additional C2..B3 and C#5..C6 files were rendered from the same TimGM6mb
+SoundFont, so the four-octave set keeps the same instrument character.
+
+SoundFont upstream:
+TimGM6mb.sf2
+Copyright 2004 Tim Brechbill; 2010 David Bolton
+License: GNU GPL version 2
+
+The SoundFont itself is not required at runtime. NeuroPiano loads only the WAV
+files stored here into RAM at startup.
